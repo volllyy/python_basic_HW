@@ -9,3 +9,6 @@ for el in my_list:
     else:
         print(f'{i}) {el[0:10]:<10}')
         i += 1
+
+# for i, word in enumerate(my_list.split(' '), 1)
+#     print(f...)

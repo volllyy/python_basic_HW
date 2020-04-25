@@ -11,20 +11,19 @@ from itertools import count
 from math import factorial
 
 
-def fib_gen() -> int:
+def fibo_gen() -> int:
     """
     The function is responsible for obtaining
     the factorial of the number.
-    :return: int factorial of the nimber
+    :return: int factorial of the number
     """
     for el in count(1):
         yield factorial(el)
 
 
-i = 0
-for i in fib_gen():
-    if i < 15:
-        print(i)
+for i, itm in enumerate(fibo_gen(), 1):
+    if i <= 15:
+        print(i, itm)
         i += 1
     else:
         break

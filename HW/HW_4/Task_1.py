@@ -9,10 +9,7 @@ def salary_func() -> float:
     """
     _, time, salary, bonus = argv
     try:
-        time = float(time)
-        salary = float(salary)
-        bonus = float(bonus)
-        final_salary = time * salary + bonus
+        final_salary = float(time) * float(salary) + float(bonus)
         print(f'Final salary is {final_salary}')
     except ValueError:
         return print('Enter the real numbers please')

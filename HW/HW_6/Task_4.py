@@ -78,8 +78,8 @@ class WorkCar(Car):
 
 
 class PoliceCar(Car):
-    def __init__(self, speed, color, name, is_police=True):
-        super().__init__(speed, color, name, is_police)
+    def __init__(self, speed, color, name):
+        super().__init__(speed, color, name, True)
 
 
 car = Car(100, 'RED', 'Hyundai')

@@ -88,3 +88,4 @@ print(cell8.cells)
 
 cell9 = Cell('d')                           # examples of wrong attributes for class Cell
 cell10 = Cell('1')
+cell11 = Cell()

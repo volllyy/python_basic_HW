@@ -91,7 +91,7 @@ print('\n')
 project2 = Clothes('Second project')
 project2.add_coat(32)
 project2.add_costume(32)
-project2.add_costume(23)
+project2.add_costume(29)
 project2.sum_cloth_costs()
 
 print(project2.name)
